@@ -378,6 +378,10 @@
       .nav-links { display: none; }
       section { padding: 6rem 5%; }
     }
+  
+    .proj-bg { position: absolute; inset: 0; background-size: cover; background-position: center; border-radius: inherit; z-index: -1; opacity: 0.15; mix-blend-mode: screen; transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1); mask-image: linear-gradient(to bottom, black 0%, transparent 90%); -webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 90%); pointer-events: none; }
+    .project-card:hover .proj-bg { transform: scale(1.04); opacity: 0.55; mask-image: linear-gradient(to bottom, black 30%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 30%, transparent 100%); mix-blend-mode: screen; }
+
   </style>
 </head>
 <body>
@@ -553,6 +557,7 @@
   <div class="projects-grid">
 
     <div class="project-card reveal delay-1">
+      <div class="proj-bg" style="background-image: url('krishi-bg.png'); filter: hue-rotate(-20deg) brightness(1.2);"></div>
       <div class="proj-header">
         <div class="proj-icon-wrap">🌾</div>
         <div class="proj-links">
@@ -573,6 +578,7 @@
     </div>
 
     <div class="project-card reveal delay-2">
+      <div class="proj-bg" style="background-image: url('land-bg.png'); filter: saturate(1.2) brightness(1.2);"></div>
       <div class="proj-header">
         <div class="proj-icon-wrap">🛰️</div>
         <div class="proj-links">
