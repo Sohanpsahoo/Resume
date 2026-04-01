@@ -382,6 +382,10 @@
     .proj-bg { position: absolute; inset: 0; background-size: cover; background-position: center; border-radius: inherit; z-index: -1; opacity: 0.15; mix-blend-mode: screen; transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1); mask-image: linear-gradient(to bottom, black 0%, transparent 90%); -webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 90%); pointer-events: none; }
     .project-card:hover .proj-bg { transform: scale(1.04); opacity: 0.55; mask-image: linear-gradient(to bottom, black 30%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 30%, transparent 100%); mix-blend-mode: screen; }
 
+  
+    .cert-bg { position: absolute; inset: 0; background-size: cover; background-position: center; border-radius: inherit; z-index: -1; opacity: 0.15; mix-blend-mode: screen; transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1); mask-image: linear-gradient(to bottom, black 0%, transparent 90%); -webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 90%); pointer-events: none; }
+    .cert-card:hover .cert-bg { transform: scale(1.04); opacity: 0.45; mask-image: linear-gradient(to bottom, black 25%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 25%, transparent 100%); mix-blend-mode: screen; }
+
   </style>
 </head>
 <body>
@@ -687,18 +691,21 @@
   </div>
   <div class="certs-grid">
     <div class="cert-card reveal delay-1">
+      <div class="cert-bg" style="background-image: url('cert-web.png');"></div>
       <div class="cert-issuer">Coursera</div>
       <div class="cert-title">Introduction to Web Development with HTML, CSS, JavaScript</div>
       <div class="cert-date">May 2025</div>
       <a href="https://www.coursera.org/" target="_blank" class="cert-link">↗ View Certificate</a>
     </div>
     <div class="cert-card reveal delay-2">
+      <div class="cert-bg" style="background-image: url('cert-python.png');"></div>
       <div class="cert-issuer">HackerRank</div>
       <div class="cert-title">Python Certificate</div>
       <div class="cert-date">Oct 2023</div>
       <a href="https://www.hackerrank.com/sohan" target="_blank" class="cert-link">↗ View Certificate</a>
     </div>
     <div class="cert-card reveal delay-3">
+      <div class="cert-bg" style="background-image: url('cert-java.png');"></div>
       <div class="cert-issuer">Udemy</div>
       <div class="cert-title">Java Programming</div>
       <div class="cert-date">Jun 2023</div>
