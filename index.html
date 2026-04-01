@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sohan Priyadarshi Sahoo | AI/ML Engineer</title>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -217,8 +218,11 @@
     .skill-tags { display: flex; flex-wrap: wrap; gap: .5rem; }
     .skill-tag { font-family: var(--mono); font-size: .8rem; padding: .35rem .9rem;
       border-radius: 8px; background: rgba(255,255,255,.03); border: 1px solid rgba(255,255,255,.08);
-      color: var(--text); transition: all .25s ease; backdrop-filter: blur(4px); }
-    .skill-tag:hover { background: rgba(163,144,255,.1); border-color: rgba(163,144,255,.4); color: var(--teal); transform: translateY(-2px); }
+      color: var(--text); transition: all .25s ease; backdrop-filter: blur(4px); 
+      display: inline-flex; align-items: center; gap: .4rem; font-weight: 500; }
+    .skill-tag i { font-size: 1.15rem; transition: transform 0.25s ease; }
+    .skill-tag:hover { background: rgba(163,144,255,.1); border-color: rgba(163,144,255,.4); color: var(--teal); transform: translateY(-3px); box-shadow: 0 4px 12px rgba(163,144,255,0.15); }
+    .skill-tag:hover i { transform: scale(1.1); }
 
     /* ── PROJECTS ── */
     .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; }
@@ -480,10 +484,10 @@
         <div class="skill-cat-label">Languages</div>
       </div>
       <div class="skill-tags">
-        <span class="skill-tag">C++</span>
-        <span class="skill-tag">Python</span>
-        <span class="skill-tag">Java</span>
-        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag"><i class="devicon-cplusplus-plain colored"></i> C++</span>
+        <span class="skill-tag"><i class="devicon-python-plain colored"></i> Python</span>
+        <span class="skill-tag"><i class="devicon-java-plain colored"></i> Java</span>
+        <span class="skill-tag"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
       </div>
     </div>
     <div class="skill-cat reveal delay-2">
@@ -492,10 +496,10 @@
         <div class="skill-cat-label">Frontend</div>
       </div>
       <div class="skill-tags">
-        <span class="skill-tag">ReactJS</span>
-        <span class="skill-tag">HTML</span>
-        <span class="skill-tag">CSS</span>
-        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag"><i class="devicon-react-original colored"></i> ReactJS</span>
+        <span class="skill-tag"><i class="devicon-html5-plain colored"></i> HTML</span>
+        <span class="skill-tag"><i class="devicon-css3-plain colored"></i> CSS</span>
+        <span class="skill-tag"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
       </div>
     </div>
     <div class="skill-cat reveal delay-3">
@@ -504,10 +508,10 @@
         <div class="skill-cat-label">Backend & DB</div>
       </div>
       <div class="skill-tags">
-        <span class="skill-tag">NodeJS</span>
-        <span class="skill-tag">Django</span>
-        <span class="skill-tag">MongoDB</span>
-        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag"><i class="devicon-nodejs-plain colored"></i> NodeJS</span>
+        <span class="skill-tag"><i class="devicon-django-plain"></i> Django</span>
+        <span class="skill-tag"><i class="devicon-mongodb-plain colored"></i> MongoDB</span>
+        <span class="skill-tag"><i class="devicon-mysql-plain colored"></i> MySQL</span>
       </div>
     </div>
     <div class="skill-cat reveal delay-4">
@@ -516,10 +520,10 @@
         <div class="skill-cat-label">AI / ML</div>
       </div>
       <div class="skill-tags">
-        <span class="skill-tag">Deep Learning</span>
-        <span class="skill-tag">NLP</span>
-        <span class="skill-tag">CNN</span>
-        <span class="skill-tag">GIS</span>
+        <span class="skill-tag"><i class="devicon-tensorflow-original colored"></i> Deep Learning</span>
+        <span class="skill-tag">🧠 NLP</span>
+        <span class="skill-tag">👁️ CNN</span>
+        <span class="skill-tag">🌍 GIS</span>
       </div>
     </div>
     <div class="skill-cat reveal delay-1">
@@ -528,9 +532,9 @@
         <div class="skill-cat-label">Tools & Platforms</div>
       </div>
       <div class="skill-tags">
-        <span class="skill-tag">GitHub</span>
-        <span class="skill-tag">Image Processing</span>
-        <span class="skill-tag">REST APIs</span>
+        <span class="skill-tag"><i class="devicon-github-original"></i> GitHub</span>
+        <span class="skill-tag">🖼️ Image Processing</span>
+        <span class="skill-tag">🔌 REST APIs</span>
       </div>
     </div>
     <div class="skill-cat reveal delay-2">
@@ -539,10 +543,10 @@
         <div class="skill-cat-label">Soft Skills</div>
       </div>
       <div class="skill-tags">
-        <span class="skill-tag">Problem-Solving</span>
-        <span class="skill-tag">Team Player</span>
-        <span class="skill-tag">Project Mgmt</span>
-        <span class="skill-tag">Adaptability</span>
+        <span class="skill-tag">🧩 Problem-Solving</span>
+        <span class="skill-tag">🤝 Team Player</span>
+        <span class="skill-tag">📋 Project Mgmt</span>
+        <span class="skill-tag">🌊 Adaptability</span>
       </div>
     </div>
   </div>
